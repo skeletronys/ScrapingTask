@@ -1,0 +1,1030 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "scraping_model",
+    "model": "car"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "oeujxoffyiqiwxpaum5vvzguqhz4kjde",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCRGQou3fcMZBhAqgaS0q6Md7dNutDtf-_9t_C0LsWvPc1-iuIqlDj9boH4meoO4oPqvUludZmnIHdFHrTLscX0uh3u30GhXrbaKZfBWIMBkTBl0Fpnm9npwA4ygLWBES5RoUF2ComHBLw1ZtBnBPH5AtCfNzc:1uFtrS:1_81dWbH7XtQwps0P8hUn0vQwb7lfUK1cNohvkBrvaM",
+    "expire_date": "2025-05-30T12:08:22.012Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 1,
+  "fields": {
+    "url": "https://auto.ria.com/auto_neta_u_pro_400_36871296.html",
+    "title": "Neta U Pro 400 2022",
+    "price_usd": 14900,
+    "odometer": 50000,
+    "username": "Владимир",
+    "phone_number": "0672117887",
+    "image_url": "https://cdn1.riastatic.com/photosnew/auto/photo/neta_u-pro-400__559249256f.jpg",
+    "images_count": 25,
+    "car_number": "AI 0516 YA",
+    "car_vin": "LUZBGAFB4NA019480",
+    "datetime_found": "2025-05-16T12:31:13.744Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 2,
+  "fields": {
+    "url": "https://auto.ria.com/auto_toyota_highlander_38244010.html",
+    "title": "Toyota Highlander 2023",
+    "price_usd": 44900,
+    "odometer": 37000,
+    "username": "Артур",
+    "phone_number": "0669424414",
+    "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/toyota_highlander__597405073f.jpg",
+    "images_count": 25,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "5TDKDRAH9PS518430",
+    "datetime_found": "2025-05-16T12:31:36.177Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 3,
+  "fields": {
+    "url": "https://auto.ria.com/auto_mercedes_benz_gle_class_37313531.html",
+    "title": "Mercedes-Benz GLE-Class 2019",
+    "price_usd": 49400,
+    "odometer": 147000,
+    "username": "Руслан",
+    "phone_number": "0675646036",
+    "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__571496523f.jpg",
+    "images_count": 33,
+    "car_number": "AE 0999 KC",
+    "car_vin": "4JGFB5KB9LA015896",
+    "datetime_found": "2025-05-16T12:31:45.100Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 4,
+  "fields": {
+    "url": "https://auto.ria.com/auto_volkswagen_tiguan_38285805.html",
+    "title": "Volkswagen Tiguan 2012",
+    "price_usd": 14800,
+    "odometer": 225000,
+    "username": "Slavik",
+    "phone_number": "0679509607",
+    "image_url": "https://cdn1.riastatic.com/photosnew/auto/photo/volkswagen_tiguan__598529471f.jpg",
+    "images_count": 99,
+    "car_number": "CA 1363 KC",
+    "car_vin": "WVGZZZ5NZDW054361",
+    "datetime_found": "2025-05-16T12:31:45.448Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 5,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_q7_38163822.html",
+    "title": "Audi Q7 2018",
+    "price_usd": 34900,
+    "odometer": 93000,
+    "username": "Олег",
+    "phone_number": "-",
+    "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/audi_q7__595153577f.jpg",
+    "images_count": 44,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WA1VAAF70JD033761",
+    "datetime_found": "2025-05-16T12:31:46.291Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 6,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_a8_36990078.html",
+    "title": "Audi A8 2019",
+    "price_usd": 61000,
+    "odometer": 60000,
+    "username": "Яків",
+    "phone_number": "0930070060",
+    "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/audi_a8__562431427f.jpg",
+    "images_count": 34,
+    "car_number": "AB 4617 KO",
+    "car_vin": "WAU8EAF82KN025007",
+    "datetime_found": "2025-05-16T12:32:16.141Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 7,
+  "fields": {
+    "url": "https://auto.ria.com/auto_volkswagen_passat_38284820.html",
+    "title": "Volkswagen Passat 2022",
+    "price_usd": 24002,
+    "odometer": 167000,
+    "username": "Машина продана",
+    "phone_number": "-",
+    "image_url": "https://img.youtube.com/vi/w1TW-M2qrsc/default.jpg",
+    "images_count": 93,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WVWZZZ3CZNE027732",
+    "datetime_found": "2025-05-16T12:32:18.803Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 8,
+  "fields": {
+    "url": "https://auto.ria.com/auto_nissan_rogue_38272030.html",
+    "title": "Nissan Rogue 2018",
+    "price_usd": 15950,
+    "odometer": 218000,
+    "username": "Дмитро Діма",
+    "phone_number": "0506114325",
+    "image_url": "https://cdn1.riastatic.com/photosnew/auto/photo/nissan_rogue__598819296f.jpg",
+    "images_count": 32,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "5N1ET2MT6JC820592",
+    "datetime_found": "2025-05-16T12:32:30.330Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 9,
+  "fields": {
+    "url": "https://auto.ria.com/auto_nissan_qashqai_38302008.html",
+    "title": "Nissan Qashqai 2013",
+    "price_usd": 11999,
+    "odometer": 183000,
+    "username": "Taras",
+    "phone_number": "0933031866",
+    "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/nissan_qashqai__598945377f.jpg",
+    "images_count": 165,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "SJNFCAJ1xU2xxxx18",
+    "datetime_found": "2025-05-16T12:32:33.204Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 10,
+  "fields": {
+    "url": "https://auto.ria.com/auto_renault_logan_38301054.html",
+    "title": "Renault Logan 2016",
+    "price_usd": 4450,
+    "odometer": 219000,
+    "username": "Имя не указано",
+    "phone_number": "0956796612",
+    "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/renault_logan__598921422f.jpg",
+    "images_count": 34,
+    "car_number": "KA 9314 IP",
+    "car_vin": "VF14SRAG456230495",
+    "datetime_found": "2025-05-16T12:32:45.189Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 11,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_q7_38300848.html",
+    "title": "Audi Q7 2016",
+    "price_usd": 38700,
+    "odometer": 251000,
+    "username": "Геннадій Павлович",
+    "phone_number": "0668435222",
+    "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/audi_q7__598913288f.jpg",
+    "images_count": 74,
+    "car_number": "CE 4138 EX",
+    "car_vin": "WAUZZZ4M1GD052087",
+    "datetime_found": "2025-05-16T12:33:02.474Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 12,
+  "fields": {
+    "url": "https://auto.ria.com/newauto/auto-volkswagen-touareg-1997468.html",
+    "title": "Volkswagen Touareg 2025",
+    "price_usd": 87995,
+    "odometer": 100000,
+    "username": "ТОВ Джерман-Центр",
+    "phone_number": "-",
+    "image_url": "",
+    "images_count": 0,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WVGZZZCR0SD009123",
+    "datetime_found": "2025-05-16T12:33:06.711Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 13,
+  "fields": {
+    "url": "https://auto.ria.com/auto_nissan_rogue_36294829.html",
+    "title": "Nissan Rogue 2014",
+    "price_usd": 15299,
+    "odometer": 154000,
+    "username": "Василь Володимирович",
+    "phone_number": "0686044336",
+    "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/nissan_rogue__593343314f.jpg",
+    "images_count": 44,
+    "car_number": "BC 3585 PT",
+    "car_vin": "5N1AT2MT5EC861798",
+    "datetime_found": "2025-05-16T12:33:07.717Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 14,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_q7_37075085.html",
+    "title": "Audi Q7 2016",
+    "price_usd": 35900,
+    "odometer": 156000,
+    "username": "Konstantin Dovzhenko",
+    "phone_number": "0503683150",
+    "image_url": "https://cdn0.riastatic.com/photosnew/auto/photo/audi_q7__564805930f.jpg",
+    "images_count": 10,
+    "car_number": "KA 5200 IA",
+    "car_vin": "WAUZZZ4M3GD058621",
+    "datetime_found": "2025-05-16T12:33:19.039Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 15,
+  "fields": {
+    "url": "https://auto.ria.com/auto_bmw_5_series_38303987.html",
+    "title": "BMW 5 Series 2020",
+    "price_usd": 44990,
+    "odometer": 107000,
+    "username": "Александр Олегович Карпенко",
+    "phone_number": "0630506050",
+    "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/bmw_5-series__599000309f.jpg",
+    "images_count": 51,
+    "car_number": "BM 7605 EI",
+    "car_vin": "WBAJA9C04LCE01443",
+    "datetime_found": "2025-05-16T12:33:22.678Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 16,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_q7_38299592.html",
+    "title": "Audi Q7 2018",
+    "price_usd": 47999,
+    "odometer": 150000,
+    "username": "Олександр",
+    "phone_number": "0954662821",
+    "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/audi_q7__598880617f.jpg",
+    "images_count": 87,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WAUZZZ4MxJDxxxx26",
+    "datetime_found": "2025-05-16T12:33:31.376Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 17,
+  "fields": {
+    "url": "https://auto.ria.com/newauto/auto-volkswagen-tiguan-2007287.html",
+    "title": "Volkswagen Tiguan 2025",
+    "price_usd": 45633,
+    "odometer": 100000,
+    "username": "Автосоюз на Петрівці",
+    "phone_number": "380730168409",
+    "image_url": "",
+    "images_count": 0,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WVGZZZCT9SW062595",
+    "datetime_found": "2025-05-16T12:33:42.806Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 18,
+  "fields": {
+    "url": "https://auto.ria.com/auto_bmw_5_series_38281065.html",
+    "title": "BMW 5 Series 2011",
+    "price_usd": 13500,
+    "odometer": 235000,
+    "username": "Сергій",
+    "phone_number": "0981513098",
+    "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/bmw_5-series__598406703f.jpg",
+    "images_count": 98,
+    "car_number": "BH 0353 OB",
+    "car_vin": "WBAXH5C55CC594872",
+    "datetime_found": "2025-05-16T12:33:46.305Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 19,
+  "fields": {
+    "url": "https://auto.ria.com/auto_volkswagen_tiguan_37915585.html",
+    "title": "Volkswagen Tiguan 2021",
+    "price_usd": 38000,
+    "odometer": 67000,
+    "username": "Богдан",
+    "phone_number": "0934588739",
+    "image_url": "https://cdn0.riastatic.com/photosnew/auto/photo/volkswagen_tiguan__598969010f.jpg",
+    "images_count": 28,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WVGZZZ5NZNW503402",
+    "datetime_found": "2025-05-16T12:33:49.351Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 20,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_a6_37788396.html",
+    "title": "Audi A6 2020",
+    "price_usd": 36000,
+    "odometer": 102000,
+    "username": "Филипп",
+    "phone_number": "0963041212",
+    "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/audi_a6__584606007f.jpg",
+    "images_count": 15,
+    "car_number": "KA 5076 MK",
+    "car_vin": "WAUL2AF21LN057673",
+    "datetime_found": "2025-05-16T12:33:53.411Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 21,
+  "fields": {
+    "url": "https://auto.ria.com/auto_mercedes_benz_sprinter_38298676.html",
+    "title": "Mercedes-Benz Sprinter 2019",
+    "price_usd": 34500,
+    "odometer": 435000,
+    "username": "Ivan",
+    "phone_number": "0505669106",
+    "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_sprinter__598856118f.jpg",
+    "images_count": 24,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WD4PF1CD3KP160388",
+    "datetime_found": "2025-05-16T12:34:04.063Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 22,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_q7_38184943.html",
+    "title": "Audi Q7 2018",
+    "price_usd": 31700,
+    "odometer": 166000,
+    "username": "Володимир",
+    "phone_number": "0986808238",
+    "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/audi_q7__595752049f.jpg",
+    "images_count": 53,
+    "car_number": "HC 2234 AB",
+    "car_vin": "WA1VAAF76JD049060",
+    "datetime_found": "2025-05-16T12:34:12.631Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 23,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_q5_38303298.html",
+    "title": "Audi Q5 2018",
+    "price_usd": 17999,
+    "odometer": 207000,
+    "username": "Віталій Денисенко",
+    "phone_number": "0508624110",
+    "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/audi_q5__598982279f.jpg",
+    "images_count": 14,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WA1ANAFY7J2137978",
+    "datetime_found": "2025-05-16T12:34:16.818Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 24,
+  "fields": {
+    "url": "https://auto.ria.com/newauto/auto-mg-hs-2010115.html",
+    "title": "MG HS 2024",
+    "price_usd": 25876,
+    "odometer": 100000,
+    "username": "MG Віннер Автомотів",
+    "phone_number": "380730165712",
+    "image_url": "",
+    "images_count": 0,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "17000000178813934",
+    "datetime_found": "2025-05-16T12:34:21.778Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 25,
+  "fields": {
+    "url": "https://auto.ria.com/auto_mercedes_benz_sprinter_38298183.html",
+    "title": "Mercedes-Benz Sprinter 2020",
+    "price_usd": 41500,
+    "odometer": 113000,
+    "username": "Роман",
+    "phone_number": "0686253800",
+    "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_sprinter__598841188f.jpg",
+    "images_count": 28,
+    "car_number": "BC 1811 MH",
+    "car_vin": "W1V9076351P237327",
+    "datetime_found": "2025-05-16T12:34:24.383Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 26,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_q7_38292499.html",
+    "title": "Audi Q7 2020",
+    "price_usd": 55000,
+    "odometer": 19000,
+    "username": "Сергій",
+    "phone_number": "0978393017",
+    "image_url": "https://cdn1.riastatic.com/photosnew/auto/photo/audi_q7__598682636f.jpg",
+    "images_count": 36,
+    "car_number": "AB 7891 KA",
+    "car_vin": "WA1LXAF70LD005337",
+    "datetime_found": "2025-05-16T12:34:25.423Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 27,
+  "fields": {
+    "url": "https://auto.ria.com/auto_mercedes_benz_gls_class_38301837.html",
+    "title": "Mercedes-Benz GLS-Class 2017",
+    "price_usd": 36900,
+    "odometer": 105000,
+    "username": "Андрій",
+    "phone_number": "0979787364",
+    "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gls-class__598942524f.jpg",
+    "images_count": 15,
+    "car_number": "KA 2688 MB",
+    "car_vin": "WDC1668561A900661",
+    "datetime_found": "2025-05-16T12:34:41.223Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 28,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_q5_38287650.html",
+    "title": "Audi Q5 2020",
+    "price_usd": 23999,
+    "odometer": 114000,
+    "username": "Ігор Іванович",
+    "phone_number": "0634289994",
+    "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/audi_q5__598576448f.jpg",
+    "images_count": 103,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WA1ANAFY4L2038892",
+    "datetime_found": "2025-05-16T12:34:59.362Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 29,
+  "fields": {
+    "url": "https://auto.ria.com/auto_volkswagen_tiguan_38173286.html",
+    "title": "Volkswagen Tiguan 2016",
+    "price_usd": 13999,
+    "odometer": 140000,
+    "username": "Ігор Іванович",
+    "phone_number": "0634289994",
+    "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/volkswagen_tiguan__595435419f.jpg",
+    "images_count": 74,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WVGBV7AX4GW592973",
+    "datetime_found": "2025-05-16T12:35:03.393Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 30,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_q5_38303717.html",
+    "title": "Audi Q5 2015",
+    "price_usd": 13999,
+    "odometer": 215000,
+    "username": "TOP AUTO",
+    "phone_number": "0664457787",
+    "image_url": "https://cdn0.riastatic.com/photosnew/auto/photo/audi_q5__598992720f.jpg",
+    "images_count": 52,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WA1LFAFP4FA034932",
+    "datetime_found": "2025-05-16T12:35:05.012Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 31,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_a6_37261690.html",
+    "title": "Audi A6 2015",
+    "price_usd": 19600,
+    "odometer": 303000,
+    "username": "Roman",
+    "phone_number": "0684730733",
+    "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/audi_a6__570073473f.jpg",
+    "images_count": 15,
+    "car_number": "AT 4834 IA",
+    "car_vin": "WAUZZZ4G4FN069663",
+    "datetime_found": "2025-05-16T12:35:37.665Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 32,
+  "fields": {
+    "url": "https://auto.ria.com/auto_tesla_model_y_38291507.html",
+    "title": "Tesla Model Y 2024",
+    "price_usd": 36450,
+    "odometer": 51000,
+    "username": "Роман",
+    "phone_number": "0687229588",
+    "image_url": "https://cdn0.riastatic.com/photosnew/auto/photo/tesla_model-y__598671570f.jpg",
+    "images_count": 81,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "7SAYGDEF6RF024579",
+    "datetime_found": "2025-05-16T12:35:40.900Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 33,
+  "fields": {
+    "url": "https://auto.ria.com/auto_bmw_5_series_37116047.html",
+    "title": "BMW 5 Series 2017",
+    "price_usd": 37000,
+    "odometer": 106000,
+    "username": "Машина продана",
+    "phone_number": "-",
+    "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/bmw_5-series__565969017f.jpg",
+    "images_count": 29,
+    "car_number": "AX 7117 BK",
+    "car_vin": "WBAJB51030G460834",
+    "datetime_found": "2025-05-16T12:35:45.696Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 34,
+  "fields": {
+    "url": "https://auto.ria.com/auto_ford_focus_38271942.html",
+    "title": "Ford Focus 2013",
+    "price_usd": 8600,
+    "odometer": 249000,
+    "username": "Orest",
+    "phone_number": "0983118626",
+    "image_url": "https://cdn1.riastatic.com/photosnew/auto/photo/ford_focus__598154101f.jpg",
+    "images_count": 109,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WF0LXXGCBLDM21834",
+    "datetime_found": "2025-05-16T12:35:59.165Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 35,
+  "fields": {
+    "url": "https://auto.ria.com/auto_audi_q7_38279035.html",
+    "title": "Audi Q7 2022",
+    "price_usd": 53500,
+    "odometer": 30000,
+    "username": "Остап",
+    "phone_number": "0975418002",
+    "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/audi_q7__598353823f.jpg",
+    "images_count": 36,
+    "car_number": "BC 6211 TK",
+    "car_vin": "Проблема з VIN кодом",
+    "datetime_found": "2025-05-16T12:36:25.262Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 36,
+  "fields": {
+    "url": "https://auto.ria.com/auto_volvo_s40_38303816.html",
+    "title": "Volvo S40 2012",
+    "price_usd": 9250,
+    "odometer": 202000,
+    "username": "Сергій",
+    "phone_number": "0964133388",
+    "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/volvo_s40__598993952f.jpg",
+    "images_count": 158,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "YV1MS84FxC2xxxx03",
+    "datetime_found": "2025-05-16T12:36:26.127Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 37,
+  "fields": {
+    "url": "https://auto.ria.com/auto_mitsubishi_outlander_38296837.html",
+    "title": "Mitsubishi Outlander 2013",
+    "price_usd": 12499,
+    "odometer": 198000,
+    "username": "Ivan",
+    "phone_number": "0935199905",
+    "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/mitsubishi_outlander__598804989f.jpg",
+    "images_count": 112,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "JMBXJCW1xCFxxxx91",
+    "datetime_found": "2025-05-16T12:36:46.060Z"
+  }
+},
+{
+  "model": "scraping_model.car",
+  "pk": 38,
+  "fields": {
+    "url": "https://auto.ria.com/auto_mercedes_benz_sprinter_38135199.html",
+    "title": "Mercedes-Benz Sprinter 2019",
+    "price_usd": 21500,
+    "odometer": 251000,
+    "username": "Omelian",
+    "phone_number": "0505650817",
+    "image_url": "https://img.youtube.com/vi/n07Ig863yhE/default.jpg",
+    "images_count": 30,
+    "car_number": "Номер автомобіля відсутній",
+    "car_vin": "WDB9106331P144986",
+    "datetime_found": "2025-05-16T12:36:51.269Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add car",
+    "content_type": [
+      "scraping_model",
+      "car"
+    ],
+    "codename": "add_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change car",
+    "content_type": [
+      "scraping_model",
+      "car"
+    ],
+    "codename": "change_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete car",
+    "content_type": [
+      "scraping_model",
+      "car"
+    ],
+    "codename": "delete_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view car",
+    "content_type": [
+      "scraping_model",
+      "car"
+    ],
+    "codename": "view_car"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$jlcREpA41rArOWtcluOohP$7jXglqcypxvVClMX/Z7lHaiCaZgTmWsuyygx4+i2Ltc=",
+    "last_login": "2025-05-16T12:08:21.976Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-05-16T12:08:17.687Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
